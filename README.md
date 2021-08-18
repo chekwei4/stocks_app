@@ -1,2 +1,2 @@
-# stocks_app
-Simple stock pricing app powered by Streamlit
+# Stock Price application
+## Simple stock pricing app powered by Streamlit
