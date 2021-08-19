@@ -32,7 +32,7 @@ def main():
             five_year = col6.button("5Y")
             
             if one_day:
-                start_date = today - relativedelta(days=+1)
+                start_date = today - relativedelta(days=+2)
                 end_date = today
             elif five_day:
                 start_date = today - relativedelta(days=+5)
