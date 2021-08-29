@@ -14,6 +14,9 @@ A simple stock pricing app that reads data via yahoo API, powered by Streamlit.
 # Inspiration
 The main aim was to practice using Streamlit, as it's a powerful framework that allows easy web application to be created with python.
 
+# Packages
+streamlit, yfinance, numpy, pandas
+
 # Application
 App is now deployed and running 24/7 on [heroku](https://chek-stock-app.herokuapp.com/)
 
@@ -22,3 +25,8 @@ Please visit and play around :)
 <p align="center">
     <img src="./app.png">
 </p>
+
+# Credits
+ - Web scrapping  from [towards data science blog post](https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75)
+
+- Youtube @Data Professor
