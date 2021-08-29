@@ -5,10 +5,15 @@ from datetime import datetime, timedelta
 import datetime as dt
 import pandas as pd
 from datetime import time, date
-from dateutil.relativedelta import relativedelta # to add days or years
+from dateutil.relativedelta import relativedelta
+from PIL import Image
+
+st.set_page_config(layout="wide", page_title="Chek's Stonk App")
+image = Image.open('cover.jpeg')
+# st.image(image)
+st.write("# My Stonk Price App")
 
 def main():
-    st.write("# My Stonk Price App")
     stock_input = st.text_input("Stock Ticker: ", "TSLA")
     today = date.today()
     data = yf.Ticker(stock_input).history()
